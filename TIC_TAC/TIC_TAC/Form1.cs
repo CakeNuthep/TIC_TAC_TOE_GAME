@@ -306,35 +306,10 @@ namespace TIC_TAC
             return currentState;
         }
 
-        //private Queue<StateNode> findLeafNode(StateNode allState)
-        //{
-        //    //Queue<StateNode> nodeStateNotChildren = new Queue<StateNode>();
-        //    List<StateNode> nodeStateNotChildren = new List<StateNode>();
-        //    Queue<StateNode> deptFirstSearch = new Queue<StateNode>();
-        //    deptFirstSearch.Enqueue(allState);
-        //    while (deptFirstSearch.Count != 0)
-        //    {
-        //        StateNode node = deptFirstSearch.Dequeue();
-        //        if(node.childrenState.Count != 0)
-        //        {
-        //            for (int indexChildrenState = 0; indexChildrenState < node.childrenState.Count(); indexChildrenState++)
-        //            {
-        //                deptFirstSearch.Enqueue(node.childrenState[indexChildrenState]);
-        //            }
-        //        }
-        //        else
-        //        {
-        //            nodeStateNotChildren.Add(node);
-        //        }
-        //    }
-        //    nodeStateNotChildren.Sort((a, b) => (a.level.CompareTo(b.level)));
-            
-        //    return new Queue<StateNode>(nodeStateNotChildren);
-        //}
+        
 
         private StateNode miniMax(StateNode currentState)
         {
-            //StateNode allState = genertateAllState();
             if(currentState.childrenState.Count == 0)
             {
                 return currentState;
@@ -382,50 +357,6 @@ namespace TIC_TAC
             }
             return currentState;
         }
-
-        //private int miniMax()
-        //{
-        //    StateNode allState = genertateAllState();
-        //    Queue<StateNode> deptFirstSearch = findLeafNode(allState);
-        //    while(deptFirstSearch.Count != 0)
-        //    {
-        //        StateNode state = deptFirstSearch.Dequeue();
-        //        StateNode parentState = state.parent;
-        //        if(parentState != null)
-        //        {
-        //            if (parentState.isMinMaxValue)
-        //            {
-        //                if (parentState.isPlayer)
-        //                {
-        //                    if (parentState.MiniMaxValue > state.MiniMaxValue)
-        //                    {
-        //                        parentState.MiniMaxValue = state.MiniMaxValue;
-        //                        parentState.bestChilState = state;
-        //                    }
-        //                }
-        //                else
-        //                {
-                            
-        //                    if (parentState.MiniMaxValue < state.MiniMaxValue)
-        //                    {
-        //                        parentState.MiniMaxValue = state.MiniMaxValue;
-        //                        parentState.bestChilState = state;
-        //                    }
-        //                }
-                          
-        //            }
-        //            else
-        //            {
-        //                parentState.MiniMaxValue = state.MiniMaxValue;
-        //                parentState.bestChilState = state;
-                        
-        //            }
-        //            deptFirstSearch.Enqueue(parentState);
-        //        }
-                
-        //    }
-        //    return allState.bestChilState.indexCellPut;
-        //}
 
         private void computerPlay()
         {
