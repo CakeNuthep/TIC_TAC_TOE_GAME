@@ -1,0 +1,10 @@
+D:\LearningC#\page\2019\TIC TAC GAME\TIC_TAC\TIC_TAC\bin\Debug\TIC_TAC.exe.config
+D:\LearningC#\page\2019\TIC TAC GAME\TIC_TAC\TIC_TAC\bin\Debug\TIC_TAC.exe
+D:\LearningC#\page\2019\TIC TAC GAME\TIC_TAC\TIC_TAC\bin\Debug\TIC_TAC.pdb
+D:\LearningC#\page\2019\TIC TAC GAME\TIC_TAC\TIC_TAC\obj\Debug\TIC_TAC.csprojAssemblyReference.cache
+D:\LearningC#\page\2019\TIC TAC GAME\TIC_TAC\TIC_TAC\obj\Debug\TIC_TAC.Form1.resources
+D:\LearningC#\page\2019\TIC TAC GAME\TIC_TAC\TIC_TAC\obj\Debug\TIC_TAC.Properties.Resources.resources
+D:\LearningC#\page\2019\TIC TAC GAME\TIC_TAC\TIC_TAC\obj\Debug\TIC_TAC.csproj.GenerateResource.cache
+D:\LearningC#\page\2019\TIC TAC GAME\TIC_TAC\TIC_TAC\obj\Debug\TIC_TAC.csproj.CoreCompileInputs.cache
+D:\LearningC#\page\2019\TIC TAC GAME\TIC_TAC\TIC_TAC\obj\Debug\TIC_TAC.exe
+D:\LearningC#\page\2019\TIC TAC GAME\TIC_TAC\TIC_TAC\obj\Debug\TIC_TAC.pdb
