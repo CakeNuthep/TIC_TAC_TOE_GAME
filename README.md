@@ -9,6 +9,5 @@
  
   - https://medium.com/@naimayz/มาสร้าง-ai-เล่นเกมโอเอ็กซ์-ด้วยอัลกอริทึม-มินิแม็กซ์-minimax-algorithm-93c371754434
   
-######Application Example
 ![alt text](https://github.com/CakeNuthep/TIC_TAC_TOE_GAME/blob/master/Application.JPG)  
   
