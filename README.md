@@ -1,4 +1,4 @@
-"TIC_TAC_TOE_GAME" 
+# TIC_TAC_TOE_GAME
 
 เป็นการเขียมเกม XO ด้วยภาษา C# บน Window Form 
 ซึ่งให้คอมเล่น XO ได้โดยใช้อัลกอริทึมที่ชื่อว่า MiniMax 
